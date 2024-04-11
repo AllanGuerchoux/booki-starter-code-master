@@ -62,19 +62,18 @@ a {
 header  {
     display: flex;
     justify-content: space-between;
-
     margin-bottom: 50px;
+
 }
 
-header ul li{
+.navBar ul li {
     display: inline;
     margin: 20px;
-
-
 }
-
-header ul li:hover{
-    border-top: 2px solid blue;
+.navBar ul li:hover{
+    border-top: 2px solid #0065FC;
+    padding-top: 20px;
+    color:#0065FC
 }
 
 
