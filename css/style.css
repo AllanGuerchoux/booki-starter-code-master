@@ -103,9 +103,9 @@ header  {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color: black;
+    
     font-size: 19px;
-    border: none;
+    border: 1px;
     padding-left: 15px;
     outline: none;
 }
