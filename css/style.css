@@ -89,8 +89,10 @@ header  {
     background: #f6f6f6;
     
 }
-.leftSearchBar{
+.searchButton{
+    background: none;
     
+    border: none;
 }
 #siteSearch{
     background: transparent;
