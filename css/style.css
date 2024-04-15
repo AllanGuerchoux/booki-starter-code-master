@@ -125,6 +125,25 @@ header  {
     border-radius: 0 15px 15px 0;
     cursor: pointer;
 }
+
+.infoBar{
+    display: flex;  
+    justify-items: center; 
+    align-items: center;
+}
+
+.logoinfoBar{
+    width: 24px;
+    height: 24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
 /**************** Filtres ******************/
 .groupeFiltre{
     display: flex;
