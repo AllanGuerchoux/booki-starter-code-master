@@ -57,6 +57,11 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+
+.imageSize{
+    width: 250px;
+    height: 120px;
+}
 /****** Header ***********/
 
 header  {
