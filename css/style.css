@@ -182,12 +182,19 @@ header  {
     box-sizing: border-box;
 }
 /***************hebergement card ****************/
+.size-img{
+    width: 250px;
+    height:119px;
+    border-radius: 20px 20px 0 0 ;
+}
 
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
 }
-
+.hebergement-card .card{
+    width: 250px;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
