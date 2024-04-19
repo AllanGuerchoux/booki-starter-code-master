@@ -187,14 +187,26 @@ header  {
     height:119px;
     border-radius: 15px 15px 0 0 ;
 }
-
+.hebergements-card-group{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+}
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
 }
 .hebergement-card .card{
     width: 230px;
 }
+
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
