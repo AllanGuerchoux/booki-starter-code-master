@@ -193,7 +193,6 @@ header  {
     flex-direction: row ;
     justify-content: space-evenly;
 }
-/****** Hebergements ***********/
 .hebergements {
     width: 65%;
     display: flex;
@@ -205,6 +204,9 @@ header  {
 .hebergement-card{
     display: flex;
     flex-direction: row;
+}
+.hebergement-card-info{
+    
 }
 .hebergement-card .card{
     width: 230px;
