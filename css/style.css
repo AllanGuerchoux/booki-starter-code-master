@@ -205,8 +205,12 @@ header  {
     display: flex;
     flex-direction: row;
 }
-.hebergement-card-info{
-    
+.hebergement-card-info .card-title{
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.hebergement-card-info .card-subtitle {
+    margin: 0;
 }
 .hebergement-card .card{
     width: 230px;
