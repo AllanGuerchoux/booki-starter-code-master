@@ -190,8 +190,7 @@ header  {
 .hebergements-card-group{
     margin-top: 20px;
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-direction: row ;
     justify-content: space-evenly;
 }
 /****** Hebergements ***********/
@@ -200,13 +199,21 @@ header  {
     display: flex;
     justify-content: center;
     justify-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hebergement-card{
+    display: flex;
+    flex-direction: row;
 }
 .hebergement-card .card{
     width: 230px;
 }
 
-
+.hebergement-title{
+    display: flex;
+    justify-content: flex-start;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
