@@ -310,6 +310,27 @@ header  {
 .activites-info .card-subtitle{
     margin: 0;
 }
+
+/****************** Footer *********************/
+
+footer{
+    background-color: #F2F2F2;
+}
+.footer-group{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    width: 446px;
+    height: 163px;
+
+}
+
+.footer-info .text-info{
+    margin: 5px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
