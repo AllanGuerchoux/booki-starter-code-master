@@ -284,11 +284,11 @@ header  {
 .activites-groupe{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .activites .card{
     display: flex;
     flex-direction: column;
-    
     height: 439px;
     width : 297.5px;
     padding: 0;
