@@ -279,6 +279,7 @@ header  {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 40px;
     
 }
 .activites-groupe{
@@ -315,6 +316,7 @@ header  {
 
 footer{
     background-color: #F2F2F2;
+    
 }
 .footer-group{
     display: flex;
