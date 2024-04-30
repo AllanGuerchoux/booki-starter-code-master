@@ -71,7 +71,8 @@ header  {
     width: 161px;
     height: 79px;
     display: flex;
-    
+    align-content: center;
+    flex-wrap: wrap;
 }
 .logo img{
     width: 61.01px;
