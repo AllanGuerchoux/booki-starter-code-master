@@ -67,6 +67,16 @@ header  {
 
 }
 
+.logo{
+    width: 161px;
+    height: 79px;
+    display: flex;
+    
+}
+.logo img{
+    width: 61.01px;
+    height: 19px;
+}
 .navBar ul li {
     display: inline;
     margin: 20px;
