@@ -197,7 +197,7 @@ header  {
 }
 /***************hebergement card ****************/
 .size-img{
-    width: 230px;
+    width: 250px;
     height:119px;
     border-radius: 15px 15px 0 0 ;
 }
@@ -206,8 +206,8 @@ header  {
     display: flex;
     flex-direction: row ;
     justify-content: space-evenly;
-    gap: 30px;
-    
+    gap: 15px;
+
 }
 .hebergements {
     width: 65%;
@@ -236,7 +236,7 @@ header  {
     margin: 0;
 }
 .hebergement-card .card{
-    width: 230px;
+    width: 250px;
 }
 
 .hebergement-title{
