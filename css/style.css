@@ -385,7 +385,12 @@ footer{
         width: 193px ;
         height: 270px;
     }
-    
+    .activites img{
+        max-width: 100%;
+        max-height: 220px;
+       
+     
+    }
     .hebergements-and-populaires {
         flex-direction: column;
     }
