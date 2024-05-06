@@ -69,7 +69,9 @@ header  {
     margin-bottom: 50px;
 
 }
-
+.fa-location-dot{
+    color: black;
+}
 .logo{
     width: 161px;
     height: 79px;
@@ -449,7 +451,9 @@ footer{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-
+    .activites{
+        width: 908px;
+    }
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
