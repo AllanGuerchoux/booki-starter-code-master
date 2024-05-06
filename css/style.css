@@ -58,6 +58,9 @@ a {
     color: var(--main-bg-color)
 }
 
+h1 p{
+    margin: 0;
+}
 /****** Header ***********/
 
 header  {
@@ -91,6 +94,14 @@ header  {
 
 /*************** Recherche  ************************/
 
+.recherche-info{
+    margin-bottom: 20px;
+    
+}
+
+.recherche-info p{
+    margin: none;
+}
 .searchBar {
     display: flex; 
     width :377px;
@@ -380,11 +391,6 @@ footer{
         display: flex;
         flex-direction: column;
         
-    }
-    .hebergement-card .card {
-      
-        
-
     }
     .hebergement-card img{
         width: 100%;
