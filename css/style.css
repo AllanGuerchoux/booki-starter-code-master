@@ -16,6 +16,8 @@
 body {
     display: flex;
     justify-content: center;
+    margin: auto;
+    
 }
 
 .main-container {
@@ -23,6 +25,7 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    margin-top: 60px;
 }
 
 a {
@@ -64,10 +67,13 @@ h1 p{
 /****** Header ***********/
 
 header  {
-    display: flex;
+    position: absolute;
+    top: 0;
+    display: flex ;
     justify-content: space-between;
     margin-bottom: 50px;
-
+    box-sizing: border-box;
+    width: 100%;
 }
 .fa-location-dot{
     color: black;
@@ -78,19 +84,36 @@ header  {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .logo img{
     width: 61.01px;
     height: 19px;
 }
-.navBar ul li {
-    display: inline;
+.navBar {
+    display:flex;
     margin: 20px;
+    width: 344px;
+    height: 35px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
-.navBar ul li:hover{
-    border-top: 2px solid #0065FC;
-    padding-top: 20px;
-    color:#0065FC
+.navBar-Activités{
+    display: flex;
+    align-items: flex-end;
+}
+.navBar-Activités:hover{
+    border-top: 2px solid blue;
+    padding-top: 34px;
+}
+.navBar-Hébergement{
+    display: flex;
+    align-items: flex-end;
+}
+.navBar-Hébergement:hover{
+    border-top: 2px solid blue;
+    padding-top: 34px;
 }
 
 
@@ -457,5 +480,64 @@ footer{
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+   body{
+    max-width: 100%;
+    margin-top: 120px;
+   }
+    .main-container{
+        max-width: 100%; 
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+       
+    }
+    .navBar{
+        width: 100%;  
+        display: flex;
+        margin: 0;
+        padding-bottom:20px;
+        justify-content: space-around;  
+        
+    }
+    .navBar-Activités{
+        width: 50%;
+        height: 19px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid grey;
+        padding-bottom: 17px;
+    }
+    .navBar-Hébergement{
+        width: 50%;
+        height: 19px; 
+        display: flex;  
+        justify-content: center; 
+        border-bottom: 2px solid grey;
+        padding-bottom: 17px;
+    }
+    
+    .navBar-Activités:hover{
+        padding-top: 0;
+        border-top: none;
+        border-bottom: 2px solid  #0065FC; ;
+    }
+    
+    .navBar-Hébergement:hover{ 
+            padding-top: 0;
+            border-top: none;
+            border-bottom: 2px solid  #0065FC; ;
+    }
+
+    .emplacement-logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    ²
+    .activites-groupe{
+        flex-direction: column;
+    }
 }
