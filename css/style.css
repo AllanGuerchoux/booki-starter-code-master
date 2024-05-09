@@ -203,6 +203,22 @@ header  {
     background-color: #DEEBFF;
 }
 
+.infoBar{
+    display: flex;
+    align-items: center;
+}
+
+.logo-infoBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #F2F2F2;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 0;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -320,23 +336,21 @@ header  {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 20px;
-    width: 1340px;
+    width:95%;
     margin-bottom: 60px;
     
 }
 .activites-groupe{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 15px; 
-    width:1280px;
-
+    flex-direction: row; 
+    width:100%;
+    gap: 30px;
 }
 .activites .card{
     display: flex;
     flex-direction: column;
     height: 439px;
-    width : 297.5px;
+    width :100% ;
     padding: 0;
      
 
