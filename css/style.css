@@ -369,6 +369,9 @@ header  {
      
 
 }
+.activites a {
+    width: 100%;
+}
 .activites img{
     height: 380px;
     width: 100%;
@@ -647,7 +650,7 @@ footer{
     }
     .activites a {
         width: 100%;
-        box-sizing: border-box;
+        
     }
 /*********footer*********/
     footer{
