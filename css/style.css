@@ -551,7 +551,7 @@ footer{
         height: 19px;
         display: flex;
         justify-content: center;
-        border-bottom: 2px solid grey;
+        border-bottom: 2px solid #F2F2F2;
         padding-bottom: 17px;
     }
     .navBar-Hébergement{
@@ -559,7 +559,7 @@ footer{
         height: 19px; 
         display: flex;  
         justify-content: center; 
-        border-bottom: 2px solid grey;
+        border-bottom: 2px solid #F2F2F2;
         padding-bottom: 17px;
     }
     
