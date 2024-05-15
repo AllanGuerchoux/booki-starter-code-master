@@ -145,6 +145,7 @@ header  {
     font-size: 18px;
     text-align: center;
     box-sizing: border-box;
+
 }
 .fa-magnifying-glass{
     width: 49px;
@@ -162,6 +163,9 @@ header  {
     display: none;
     
 }
+.fa-magnifying-glass:hover{
+    cursor: pointer;
+}
 .bouton-rechercher{
     max-width: 132px;
     height: 49px;
@@ -172,7 +176,9 @@ header  {
     background-color: #0065FC;
     color: white;
 }
-
+.bouton-rechercher:hover{
+    cursor: pointer;
+}
 /**************** Filtres ******************/
 .groupeFiltre{
     display: flex;
