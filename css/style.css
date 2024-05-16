@@ -587,8 +587,13 @@ footer{
             border-top: none;
             border-bottom: 2px solid  #0065FC; ;
     }
+    .barre-de-recherche{
+        width: 100%;
+        max-width: none;
+    }
     .barre-de-recherche-attribut{
-        width: 297.22px;
+        width: 100%;
+        max-width: none;
     }
     .fa-magnifying-glass{
         display: flex;
@@ -610,7 +615,7 @@ footer{
         flex-wrap: wrap;
     }
     .bulleFiltre{
-        width: 162px;
+        width: 40%;
     }
     /***************changement populaire********************/
     .populaires {
