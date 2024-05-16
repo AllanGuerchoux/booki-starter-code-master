@@ -74,6 +74,7 @@ header  {
     margin-bottom: 50px;
     box-sizing: border-box;
     width: 100%;
+    max-width: 1440px;
 }
 .fa-location-dot{
     color: black;
@@ -212,6 +213,7 @@ header  {
 .infoBar{
     display: flex;
     align-items: center;
+    margin-top: 40px;
 }
 
 .logo-infoBar{
